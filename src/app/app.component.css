@@ -1,0 +1,33 @@
+.parent {
+  min-width: 200px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.inner-parent {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+.circle-line-parent {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.line {
+  width: 1px;
+  height: 100%;
+  border: 1px solid black;
+  background-color: blue;
+  flex: 1 1 auto;
+}
+.hidden {
+  display: none;
+}

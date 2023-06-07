@@ -1,0 +1,11 @@
+<div *ngFor="let ele of [1, 2, 3, 4]; let i = index" class="parent">
+  <div class="inner-parent">
+    <div class="circle-line-parent">
+      <div class="circle"></div>
+      <div class="line" [class.hidden]="i === [1, 2, 3, 4].length - 1"></div>
+    </div>
+    <div>
+      {{ ele }}
+    </div>
+  </div>
+</div>
